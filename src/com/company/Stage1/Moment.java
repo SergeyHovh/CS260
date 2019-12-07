@@ -25,7 +25,7 @@ public class Moment implements PlugInFilter {
 
     public double theta(ImageProcessor ip) {
 //        double v = atan2(() / )) / 2;
-        double v = atan2(centralMoment(ip, 2, 0) - centralMoment(ip, 0, 2), 2 * centralMoment(ip, 1, 1)) / 2;
+        double v = atan2(2 * centralMoment(ip, 1, 1), centralMoment(ip, 2, 0) - centralMoment(ip, 0, 2)) / 2;
         IJ.log(v + " ");
         IJ.log(toRadians(v) + " ");
         IJ.log(toDegrees(v) + " ");
