@@ -1,5 +1,3 @@
-package com.company.Stage1;
-
 import ij.*;
 import ij.ImagePlus;
 import ij.plugin.filter.PlugInFilter;
@@ -14,13 +12,6 @@ public class Moment implements PlugInFilter {
 
     public void run(ImageProcessor ip) {
         IJ.log(theta(ip) + " ");
-//        IJ.log(nCentralMoment(ip, 0, 0) + " ");
-//        IJ.log(nCentralMoment(ip, 1, 1) + " ");
-//        IJ.log(nCentralMoment(ip, 0, 1) + " ");
-//        IJ.log(nCentralMoment(ip, 1, 0) + " ");
-//        IJ.log(nCentralMoment(ip, 0, 2) + " ");
-//        IJ.log(nCentralMoment(ip, 2, 0) + " ");
-//        IJ.log(nCentralMoment(ip, 2, 2) + " ");
     }
 
     public double theta(ImageProcessor ip) {

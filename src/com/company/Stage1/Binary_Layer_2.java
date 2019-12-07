@@ -1,5 +1,3 @@
-package com.company.Stage1;
-
 import ij.ImagePlus;
 import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
