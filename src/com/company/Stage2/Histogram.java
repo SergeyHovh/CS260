@@ -1,7 +1,9 @@
+package com.company.Stage2;
+
+import ij.*;
 import ij.ImagePlus;
 import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
-import ij.*;
 
 import java.awt.*;
 

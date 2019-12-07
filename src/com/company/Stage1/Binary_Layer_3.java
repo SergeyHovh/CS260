@@ -1,16 +1,18 @@
+package com.company.Stage1;
+
 import ij.ImagePlus;
 import ij.plugin.filter.PlugInFilter;
 import ij.process.ImageProcessor;
 
 import java.awt.*;
 
-public class Binary_Layer_1 implements PlugInFilter {
+public class Binary_Layer_3 implements PlugInFilter {
     public double bottom(int x) {
-        return -0.0009 * x * x + 1.1917 * x - 4.0146;
+        return -0.0013 * x * x + 1.2608 * x + 12.067;
     }
 
     public double top(int x) {
-        return -0.0011 * x * x + 1.2262 * x + 4.0264;
+        return -0.0026 * x * x + 1.5713 * x + 14.8;
     }
 
     public int setup(String args, ImagePlus im) {
