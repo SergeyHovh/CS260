@@ -50,7 +50,5 @@ public class Histogram implements PlugInFilter {
             c_blue[i] = c_blue[i] / c_blue[255];
             IJ.log(c_red[i] + "," + c_green[i] + "," + c_blue[i]);
         }
-
-
     }
 }
